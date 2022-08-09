@@ -9,7 +9,7 @@
 - Add .env file update with following data.
 
 ```bash
-GOOGE_SHEET_PRIVATE_KEY="THIS IS PRIVATE KEY CAN BE FOUND IN CONFILE WE GET WHEN CREATE AND ENABLE GOOGLE SHEET API. private_key property"
+GOOGE_SHEET_PRIVATE_KEY="THIS IS PRIVATE KEY CAN BE FOUND IN CONFIG FILE WE GET WHEN CREATE AND ENABLE GOOGLE SHEET API. private_key property"
 GOOGLE_SHEET_EMAIL="This Is email also in client_email property"
 ```
 

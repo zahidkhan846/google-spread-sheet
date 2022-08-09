@@ -9,6 +9,10 @@ const getSingleSheet = async (req, res) => {
     sheetUrl
   )[1];
 
+  if (!spreadsheetId) {
+    return res.status(401).json({ message: "Invalid spreadsheet." });
+  }
+
   const doc = new GoogleSpreadsheet(spreadsheetId);
 
   await doc.useServiceAccountAuth({
